@@ -1,0 +1,45 @@
+{
+    "name": "web-xdxm",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "vue-cli-service serve --mode dev",
+        "qa": "vue-cli-service serve --mode qa",
+        "serve": "vue-cli-service serve --mode dev",
+        "build": "vue-cli-service build --mode prod",
+        "build--qa": "vue-cli-service build --mode qa",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "cesium": "^1.79.1",
+        "core-js": "^3.6.5",
+        "echarts": "^5.0.2",
+        "element-ui": "^2.14.0",
+        "jquery": "^3.5.1",
+        "postcss-px2rem": "^0.3.0",
+        "px2rem-loader": "^0.1.9",
+        "tiff.js": "^1.0.0",
+        "vue": "^2.6.11",
+        "vue-router": "^3.4.8",
+        "vuedraggable": "^2.24.3",
+        "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/eslint-config-prettier": "^6.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "eslint-plugin-vue": "^7.0.0-0",
+        "prettier": "^1.19.1",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

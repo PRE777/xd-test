@@ -1,0 +1,236 @@
+.data-list-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    /* width: 100%; */
+}
+
+.tableContent {
+    background: transparent;
+}
+
+
+/* 数据列表 */
+
+.el-table th>.cell,
+.el-table .cell {
+    text-align: center;
+}
+
+.el-table__fixed-body-wrapper {
+    top: 40px !important;
+    /* height: 410px !important; */
+}
+
+.el-table__fixed-right::before,
+.el-table__fixed::before {
+    background-color: transparent;
+}
+
+.el-table__body,
+.el-table__footer,
+.el-table__header {
+    border-left: 1px solid #0ab8f2;
+}
+
+.el-table thead,
+.el-table__body {
+    position: relative;
+}
+
+.el-table__body::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #439bbb;
+    position: absolute;
+    top: 0;
+    right: 1px;
+}
+
+.el-table__body tr.hover-row>td {
+    background-color: #104184;
+}
+
+.el-table__body-wrapper {
+    background: #104184 !important;
+    /* height: 410px !important; */
+    scrollbar-width: none;
+}
+
+.el-table th {
+    background: -webkit-linear-gradient(0deg, #104184 0%, #0556A4 100%);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient( 0deg, #104184 0%, #0556A4 100%);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient( 0deg, #104184 0%, #0556A4 100%);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, #104184 0%, #0556A4 100%);
+    /* 标准的语法 */
+}
+
+.el-table tr {
+    background: #104184;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background: #104184;
+}
+
+.el-table thead {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.el-button--text,
+.el-button--text:hover {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 350;
+    padding: 5px 10px;
+    background: rgb(21, 116, 167);
+    border: 1px solid #0ab8f2;
+}
+
+.el-table--fit {
+    border-left: none;
+    border-right: none;
+}
+
+.el-table td,
+.el-table th.is-leaf {
+    border-bottom: 1px solid #0ab8f2;
+    /* border-right: none; */
+    border-right: 1px solid #0ab8f2 !important;
+}
+
+.el-table::before {
+    background: transparent;
+}
+
+.el-table {
+    color: #fff;
+    font-weight: 350;
+    font-size: 13px;
+    background: #104184;
+    border: 1px solid #439bbb;
+}
+
+.el-table__empty-block {
+    background: #104184;
+}
+
+.el-table__empty-text {
+    color: #fff;
+}
+
+
+/* 分页 */
+
+.page-control {
+    text-align: right;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.el-pagination__total {
+    color: #fff;
+}
+
+.el-pager li,
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+    margin: auto 5px;
+    background: #104184;
+    border: 1px solid #4167B2;
+}
+
+.el-pager li.btn-quicknext,
+.el-pager li.btn-quickprev {
+    line-height: 28px;
+    color: #fff;
+}
+
+.el-pagination button:disabled {
+    /* color: #C0C4CC;
+    background-color: #FFF;
+    cursor: not-allowed; */
+    display: none;
+}
+
+.el-pagination__jump {
+    color: #fff;
+}
+
+.el-input__inner {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+    background: #104184;
+    border: 1px solid #4167B2;
+    caret-color: #53D7FF;
+}
+
+.el-pager li.active {
+    background: #4167B2;
+    color: #fff;
+}
+
+
+/* dialog */
+
+
+/* 
+.el-dialog__body {
+    height: 100px;
+    justify-content: left;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.el-radio-group {
+    line-height: 1;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+
+.el-radio {
+    color: #606266;
+    cursor: pointer;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+}
+
+.el-radio__label {
+    font-size: 16px !important;
+}
+
+.el-button--primary {
+    color: #fff;
+    background: rgba(10, 73, 107, 1);
+    border: 1px solid rgba(3, 195, 255, 1);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.defaultBtn {
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(3, 195, 255, 1);
+    border-radius: 2px;
+} */

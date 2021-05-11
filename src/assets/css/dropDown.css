@@ -1,0 +1,90 @@
+/* 下拉框 */
+
+.el-select-dropdown__item.selected,
+.el-select-dropdown__item.hover {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    background: rgba(0, 150, 197, 1);
+    border: 1px solid rgba(3, 195, 255, 0.55);
+}
+
+.el-scrollbar {
+    background: #0D3E6F;
+}
+
+.el-select-dropdown__list {
+    padding: 0;
+}
+
+.el-select-dropdown__item {
+    color: #fff;
+}
+
+.el-popper[x-placement^="bottom"] {
+    margin-top: 0;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+    border-bottom-color: rgba(20, 61, 91, 1) !important;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow {
+    border-bottom-color: rgba(0, 150, 197, 1);
+}
+
+.el-select-dropdown {
+    border: 1px solid rgba(0, 150, 197, 1);
+}
+
+.el-select-dropdown.el-popper {
+    background: rgba(20, 61, 91, 1);
+    margin-top: 5px;
+}
+
+.el-select-dropdown__empty {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 350;
+}
+
+
+/* 火狐 */
+
+.el-scrollbar__wrap {
+    scrollbar-width: none;
+}
+
+
+/* 去掉小三角 */
+
+.el-popper .popper__arrow,
+.el-popper .popper__arrow::after {
+    border-style: none;
+}
+
+
+/* 搜索建议下拉列表 */
+
+.el-autocomplete-suggestion {
+    margin-top: 5px !important;
+}
+
+.el-autocomplete-suggestion li {
+    color: #fff;
+}
+
+.el-autocomplete-suggestion {
+    border: 1px solid rgba(0, 150, 197, 1);
+    width: 442px;
+}
+
+.el-autocomplete {
+    width: 440px;
+}
+
+.el-autocomplete-suggestion li.highlighted,
+.el-autocomplete-suggestion li:hover {
+    background-color: rgba(0, 150, 197, 1);
+    border: 1px solid rgba(3, 195, 255, 0.55);
+}

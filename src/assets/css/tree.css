@@ -1,0 +1,65 @@
+/* 树结构样式 */
+
+.el-tree {
+    /* background: #239FA1; */
+    background: transparent;
+    color: #fff;
+    top: 10px;
+    width: 100%;
+}
+
+.el-tree-node__label {
+    margin-left: 6px;
+}
+
+.el-tree-node__expand-icon {
+    color: #49B9DD;
+}
+
+.el-checkbox__inner {
+    background-color: transparent;
+    border: 1px solid #BBBFDD;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #49B9DD !important;
+    border-color: #49B9DD !important;
+}
+
+.el-checkbox__inner:hover {
+    border-color: #49B9DD;
+}
+
+.el-tree-node:focus>.el-tree-node__content {
+    background-color: transparent !important;
+    /* background-color: green !important;
+    color: red; */
+}
+
+.el-tree-node__content:hover {
+    background-color: transparent !important;
+}
+
+.el-checkbox__input.is-disabled .el-checkbox__inner {
+    background-color: #aeafaf;
+    border-color: #aeafaf;
+    cursor: not-allowed;
+}
+
+
+/* 勾选后 禁用的颜色*/
+
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner {
+    /* background-color: green !important; */
+    background-color: #aeafaf !important;
+    border-color: #aeafaf !important;
+}
+
+
+/* 禁用 v 的颜色*/
+
+.el-checkbox__input.is-disabled .el-checkbox__inner::after {
+    border-color: #4e5053 !important;
+}
