@@ -36,7 +36,7 @@ module.exports = {
         open: true, //自动打开浏览器
         hot: true, // 是否开启模块热替换功能
         compress: true, // 是否开启gzip压缩
-        watch: true, // 监听模式是否开启，默认为true
+        // watch: true, // 监听模式是否开启，默认为true，放开运行报错
         watchOptions: { // 监听模式选项
             // 不监听的文件或文件夹，支持正则匹配。默认为空
             ignored: /node_modules/,
@@ -77,7 +77,7 @@ module.exports = {
         module: {
             unknownContextCritical: /^.\/.*$/,
             unknownContextCritical: false,
-            noPaser: /jquery|chartjs/, // 正则表达式 让webPack忽略没有采用模块化的文件
+            noParse: /jquery|chartjs/, // 正则表达式 让webPack忽略没有采用模块化的文件
 
         }
     },

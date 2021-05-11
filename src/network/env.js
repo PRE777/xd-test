@@ -19,8 +19,8 @@
  } else {
      // 开发环境
      baseUrl = "http://10.3.11.237:8899/bd-guide";
-     //  baseUrl = "http://bd-guide.elk.iwhere.com";
-     offlineUrl = "http://10.3.11.237:8080/map/{z}/{x}/{y}.png"
+     baseUrl = "http://bd-guide.elk.iwhere.com";
+     //  offlineUrl = "http://10.3.11.237:8080/map/{z}/{x}/{y}.png"
  }
  export {
      baseUrl,
